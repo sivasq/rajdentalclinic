@@ -1,0 +1,817 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600';
+
+body{
+    font-family: 'Source Sans Pro', sans-serif!important;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #a46aa2 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 17px;
+    margin-top: 17px;
+}
+
+.upper{
+    text-transform: uppercase!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.content-wrapper{
+    background-image: url(../img/bg_pattern.png);
+    background-repeat: repeat;
+    background-position: left top;    
+    background-size: 25% auto; 
+    position: relative;
+    background-color:#fff;   
+}
+
+.content-wrapper .mask{
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.bg-bottom-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    width:15%;
+}
+
+.bg-bottom-img img{
+    width: 100%;
+}
+
+.small-box, .small-box:hover{
+    box-shadow: none;
+}
+
+.small-box .inner, .small-box .inner:hover{
+    border:1px solid #eee;
+    border-radius: 15px;
+    background-color: #fff;
+    overflow: hidden; 
+    padding:10px;
+    border-width: 2px;
+}
+
+.icon .sq{
+    font-size: 1.2em;
+    line-height: 71px;
+}
+
+.small-box .icon, .small-box .icon:hover{
+    position: relative;
+    top:auto;
+    right: auto;
+    font-size: 45px!important;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.small-box .icon i, .small-box .icon i:hover{    
+    margin: 0 auto;
+}
+
+.small-box > .small-box-footer, .small-box > .small-box-footer:hover{
+    background: none;
+    color:#333;    
+}
+
+.small-box > .small-box-footer h5{
+    font-size:14px;
+}
+
+/* box 1 */ 
+.small-box.box1 .inner, .small-box.box1 .inner:hover{
+    border-color:#782775;
+}
+
+.small-box.box1 .inner .icon .sq, .small-box.box1 .inner .icon .sq:hover, .small-box.box1 .small-box-footer h5{
+    color:#782775;
+}
+
+/* box 2 */
+.small-box.box2 .inner, .small-box.box2 .inner:hover{
+    border-color:#765823;
+}
+
+.small-box.box2 .inner .icon .sq, .small-box.box2 .inner .icon .sq:hover, .small-box.box2 .small-box-footer h5{
+    color:#765823;
+}
+
+/* box 3 */
+.small-box.box3 .inner, .small-box.box3 .inner:hover{
+    border-color:#4d917c;
+}
+
+.small-box.box3 .inner .icon .sq, .small-box.box3 .inner .icon .sq:hover, .small-box.box3 .small-box-footer h5{
+    color:#4d917c;
+}
+
+/* box 4 */
+.small-box.box4 .inner, .small-box.box4 .inner:hover{
+    border-color:#761b1b;
+}
+
+.small-box.box4 .inner .icon .sq, .small-box.box4 .inner .icon .sq:hover, .small-box.box4 .small-box-footer h5{
+    color:#761b1b;
+}
+
+/* box 5 */
+.small-box.box5 .inner, .small-box.box5 .inner:hover{
+    border-color:#565699;
+}
+
+.small-box.box5 .inner .icon .sq, .small-box.box5 .inner .icon .sq:hover, .small-box.box5 .small-box-footer h5{
+    color:#565699;
+}
+
+/* box 6 */
+.small-box.box6 .inner, .small-box.box6 .inner:hover{
+    border-color:#b12d2f;
+}
+
+.small-box.box6 .inner .icon .sq, .small-box.box6 .inner .icon .sq:hover, .small-box.box6 .small-box-footer h5{
+    color:#b12d2f;
+}
+
+/* box 7 */
+.small-box.box7 .inner, .small-box.box7 .inner:hover{
+    border-color:#804a2c;
+}
+
+.small-box.box7 .inner .icon .sq, .small-box.box7 .inner .icon .sq:hover, .small-box.box7 .small-box-footer h5{
+    color:#804a2c;
+}
+
+/* box 8 */
+.small-box.box8 .inner, .small-box.box8 .inner:hover{
+    border-color:#547b23;
+}
+
+.small-box.box8 .inner .icon .sq, .small-box.box8 .inner .icon .sq:hover, .small-box.box8 .small-box-footer h5{
+    color:#547b23;
+}
+
+.sidebar-menu li.header{
+    letter-spacing: 1.2px;
+    font-style: bold;
+}
+
+.sidebar-menu li{
+    border-bottom: 1px solid #154f57;
+}
+
+.sidebar-menu li .sq{
+    font-size: 22px!important;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #114148;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+    color:#ffffff;
+    background-color:#114148; 
+}
+
+.main-header .navbar{
+    background-color: #ffffff!important;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.main-header .navbar .navbar-custom-menu li a{
+    line-height:2.3em;
+    color:#000!important;
+}
+
+.main-header .sidebar-toggle {
+    font-size: 24px!important;
+    padding:14px 20px 14px 20px;
+}
+
+.main-header .navbar-left{
+    float:left;
+}
+
+.main-header .navbar-left ul{
+    
+}
+
+.main-header .navbar-left ul li.custom-logo{    
+    padding-top:7px;
+}
+
+.main-header .navbar-left ul li.custom-logo img{
+    height: 32px;
+}
+
+@media (max-width: 991px) {
+    .main-header .navbar-left ul li.custom-logo img{
+        height: 28px;
+    }
+}
+
+.main-header .logo .logo-lg{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-header .logo img{
+    height:25px;    
+}
+
+.last_patient .data-table{
+    padding:10px 20px 0px 20px;
+}
+
+.last_patient .data-table thead{
+    background-color: #dbdbdb;
+}
+
+.last_patient .data-table tbody{
+    background-color: #f4f4f4;
+}
+
+.last_patient .data-table tbody tr{
+    border-bottom: 2px solid #fff;
+}
+
+.last_patient .data-table .btn{
+    background-color: #477714;
+    color:#fff;
+    border:none;
+    width:80px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@media (min-width: 992px) {
+    .last_patient thead th.view{
+        width:25%;
+    }
+}
+
+table.dataTable{
+    border-collapse: collapse !important;
+}
+
+.content .add_patient{
+    background-color: #fff;
+    padding:40px;
+    border:2px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+
+.content .add_patient .form-horizontal .control-label{
+    text-align: left;
+}
+
+.content .add_patient .action{
+    margin-top: 35px;
+}
+
+.content .add_patient .btn-success{
+    background-color: #7d267a;
+    border:none;
+}
+
+.content .add_patient .btn-cancel{
+    background-color:#9b9b9b;
+    border:none;
+}
+
+.content .add_patient .btn-edit{
+    background-color: #7d267a;
+    border:none;
+}
+ 
+.existing_patient .data-table{
+    padding:10px 20px 0px 20px;
+}
+
+.existing_patient .data-table thead{
+    background-color: #dbdbdb;
+}
+
+.existing_patient .data-table tbody{
+    background-color: #f4f4f4;
+}
+
+.existing_patient .data-table tbody tr{
+    border-bottom: 2px solid #fff;
+}
+
+.existing_patient .data-table .btn{
+    background-color: #477714;
+    color:#fff;
+    border:none;
+    width:auto;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.btn.violet{
+    background-color: #7d267a!important;
+}
+
+.btn.dark_green{
+    background-color: #057a8b!important;
+}
+
+.table.dataTable.no-footer{
+    width:100%!important;
+}
+
+.dataTables_scrollHeadInner{
+    width:100%!important;
+}
+
+.content .patient_details{
+    background-color: #fff;
+    padding:40px;
+    border:2px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+
+.content .patient_details .form-horizontal .control-label{
+    text-align: left;
+}
+
+.content .patient_details .action{
+    margin-top: 35px;
+}
+
+.content .patient_details .btn-success{
+    background-color: #7d267a;
+    border:none;
+}
+
+.content .patient_details .btn-cancel{
+    background-color:#9b9b9b;
+    border:none;
+}
+
+.content .patient_details .action-top{
+    margin-bottom: 25px;
+    margin-top: -15px;
+    text-align: right;
+}
+
+h4.modal-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.modal h4.medication{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    padding:5px 0 15px 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.patient_info td {
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.patient_info td .title {
+    color:#7d267a;
+    font-weight: 600;  
+}
+
+table#medication thead{
+    background-color: #f4f4f4;
+    border-bottom: none;  
+    padding-bottom: 5px;  
+}
+
+table#medication thead th{
+    text-align:center;
+    color:#7d267a;
+    line-height: 10px;
+}
+
+table#medication thead tr:nth-child(1) th{
+    padding-top:12px;
+}
+
+table#medication thead tr:nth-child(2) th{
+    padding-bottom:12px;
+}
+
+
+table#medication tbody td{
+    text-align:center;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #057a8b;
+    border-color: #057a8b;
+    color: #fff;
+    cursor: default;
+    z-index: 3;
+}
+
+#medication input[type="text"]{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #ccc;
+    border-image: none;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 3rem;
+    outline: 0 none;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.btn{
+    border:none!important;
+}
+
+.btn.cancel{
+    background-color: #8e8e8e;
+}
+
+.modal-dialog{
+    max-width:90%!important;
+}
+
+.new_prescription{
+    background-color: #fff;
+
+}
+
+.content .new_prescription{
+    background-color: #fff;
+    padding:40px;
+    border:2px solid #cdcdcd;
+    border-radius: 5px;
+}
+
+
+.content .new_prescription .form-horizontal .control-label{
+    text-align: left;
+}
+
+.content .new_prescription .action{
+    margin-top: 35px;
+}
+
+.content .new_prescription .btn-success{
+    background-color: #7d267a;
+    border:none;
+}
+
+.content .new_prescription .btn-cancel{
+    background-color:#9b9b9b;
+    border:none;
+}
+
+.text-right{
+    text-align: right!important;
+}
+/* login page */
+
+.login-page{
+    background-image: url(../img/bg_pattern.png);
+    background-repeat: repeat;
+    background-position: left top;    
+    background-size: 20% auto; 
+    position: relative;
+    background-color:#fff;
+    min-height: 600px;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+.login-page .mask{
+    background-color: rgba(0, 0, 0, 0.01);
+    height: 100vh;
+}
+
+.login-page .login-bg-bottom-img{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    z-index: 2;
+}
+
+.login-page .login-bg-bottom-img img{
+    width: 70%;
+}
+
+.login-page .login-logo{
+    padding:100px 0 30px;
+}
+
+.login-page .login-logo img{
+    width: 70%;
+}
+
+
+.login-page .login-content {
+    position: relative;
+    text-align: center;
+    transition: all 550ms ease-in-out 0s;
+}
+
+.login-page .login-content a {
+    color: #949494;
+}
+
+.login-page .login-form {
+    position: relative;
+    transition: all 550ms ease-in-out 0s;
+}
+.login-page .login-form .form-group {
+    margin-bottom: 20px;
+    transition: all 550ms ease-in-out 0s;
+}
+.login-page .login-form .form-group .input-group {
+    background: transparent;
+    border: 1px solid #373e4a;
+    border-radius: 3px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    transition: all 300ms ease-in-out 0s;
+}
+.login-page .login-form .form-group .input-group.focused {
+    border-color: rgba(98, 111, 133, 0.5);
+}
+.login-page .login-form .form-group .input-group.validate-has-error {
+    border-color: rgba(236, 89, 86, 0.5);
+}
+.login-page .login-form .form-group .input-group.validate-has-error .error {
+    font-size: 10px;
+    margin-top: -8px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+.login-page .login-form .form-group .input-group .input-group-addon, .login-page .login-form .form-group .input-group .form-control {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+}
+.login-page .login-form .form-group .input-group .input-group-addon {
+    position: relative;
+}
+.login-page .login-form .form-group .input-group .input-group-addon::after {
+    background: #454a54 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleY(0.56);
+    width: 1px;
+}
+.login-page .login-form .form-group .input-group .form-control {
+    color: #000000;
+}
+
+.login-page .login-form .btn-login{
+    padding:12px;
+    font-size: 16px;
+}
+
+.login-page.logging-in .login-form form {
+    opacity: 0;
+    transform: translateY(-200px) scale(0.8);
+}
+
+.login-page .form-login-error {
+    background: #cc2424 none repeat scroll 0 0 padding-box;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 1px;
+    display: block;
+}
+
+.login-page .form-login-error h3 {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 0 5px;
+    background: #b62020 none repeat scroll 0 0 padding-box;
+    border-radius: 3px 3px 0 0;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+.login-page .form-login-error p {
+    font-size: 11px;
+    margin: 0;
+    padding: 10px;
+}
+
+.login-page .form-forgotpass-error {
+    background: #cc2424 none repeat scroll 0 0 padding-box;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 1px;
+    display: block;
+}
+
+.login-page .form-forgotpass-error h3 {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 0 5px;
+    background: #b62020 none repeat scroll 0 0 padding-box;
+    border-radius: 3px 3px 0 0;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+.login-page .form-forgotpass-error p {
+    font-size: 11px;
+    margin: 0;
+    padding: 10px;
+}
+
+.login-page .form-forgotpass-success {
+    background: #016309 none repeat scroll 0 0 padding-box;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding: 1px;
+    display: block;
+}
+
+.login-page .form-forgotpass-success h3 {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 0 5px;
+    background: #016309 none repeat scroll 0 0 padding-box;
+    border-radius: 3px 3px 0 0;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+.login-page .form-forgotpass-success p {
+    font-size: 11px;
+    margin: 0;
+    padding: 10px;
+}
+
+.login-page .login-form .forgot_pass{
+    text-align:right;
+    line-height: 40px;
+}
+
+.login-page .login-form .remember{
+    text-align: left;
+}
+
+.login-page .login-form .remember label{
+    color:#949494;
+}
+
+.login-page .login-form .remember label .icheckbox_square-blue{
+    margin-right:6px;
+}
+
+.login-page .login-form .login-help{
+    margin-top:-22px;
+    font-size: 12px;
+}
+
+.login-page .login-form .forgot_pass{
+    color:#949494;
+}
+
+.login-page .login-form .login_link{
+    line-height: 40px;
+    color:#949494;
+}
+
+/* login end */
+
+.error{
+    color:#cf050b;
+}
+
+#patient_details_update .btn-edit{
+    background-color:#057a8b;
+    color:#fff;
+}
+
+
+/* typeahead */
+
+span.twitter-typeahead {
+  width: 100%;
+}
+span.twitter-typeahead .tt-dropdown-menu {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  width: 100%;
+  margin-top: -1px;
+  max-height: 250px;
+  overflow: auto;
+}
+span.twitter-typeahead .tt-suggestion.tt-cursor {
+  background-color: #fafafa;
+}
+span.twitter-typeahead .tt-hint {
+  color: #cacbcb;
+}
+span.twitter-typeahead .empty-message {
+  padding: 5px 13px;
+  color: #bdbebe;
+}
+span.twitter-typeahead .tt-suggestion > p {
+  padding: 5px 13px;
+}
+span.twitter-typeahead .tt-suggestion > p .tt-highlight {
+  color: #7d7f7f;
+}
+span.twitter-typeahead .tt-suggestion > p:hover,
+span.twitter-typeahead .tt-suggestion > p:focus {
+  background: #fafafa;
+  cursor: pointer;
+}
+.input-group span.twitter-typeahead {
+  display: block !important;
+}
+.input-group span.twitter-typeahead .tt-dropdown-menu {
+  top: 32px !important;
+}
+.input-group.input-group-lg span.twitter-typeahead .tt-dropdown-menu {
+  top: 44px !important;
+}
+.input-group.input-group-sm span.twitter-typeahead .tt-dropdown-menu {
+  top: 28px !important;
+}
+
+.hidden{display:none!important;}
+
+.tt-dropdown-menu{
+    text-align: left!important;
+}
+
+.add_prescription .add, .add_prescription .remove{
+    cursor:pointer!important;
+}
+
+
+.print_con .print-1 > div{
+  margin-top:5px!important;
+  margin-bottom: 5px!important;
+  font-size: 16px!important;
+}
+
+.print_con .part-1{
+  margin-bottom: 7px!important;
+  font-size: 15px!important;
+}
+
+.print_con .part-1 p{
+  font-size: 15px!important;
+}
+
+.print_con .part-1 .title{
+  font-size: 15px!important;
+  font-weight: bold!important;
+  width:40%;
+}
+
+.print_con table th{
+    font-size: 14px!important;
+}
+
+.print_con .tamil{
+  font-family: latha!important;
+  font-size: 10px!important;
+}
+
+.btn.btn-danger{
+    background-color: #99060a!important;
+}
+
+.case_history .select2-selection li{
+    float:right!important;
+ }

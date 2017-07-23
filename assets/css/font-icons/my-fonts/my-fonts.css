@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'sqfont';
+  src:  url('fonts/sqfont.eot?5gssw6');
+  src:  url('fonts/sqfont.eot?5gssw6#iefix') format('embedded-opentype'),
+    url('fonts/sqfont.ttf?5gssw6') format('truetype'),
+    url('fonts/sqfont.woff?5gssw6') format('woff'),
+    url('fonts/sqfont.svg?5gssw6#sqfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i.sq {
+  display: inline-block;
+  font: normal normal normal 14px/1 sqfont;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sq-2x {
+  font-size: 2em!important;
+}
+.sq-3x {
+  font-size: 3em!important;
+}
+.sq-4x {
+  font-size: 4em!important;
+}
+.sq-5x {
+  font-size: 5em!important;
+}
+
+.sq-controls:before {
+  content: "\ea81";
+}
+.sq-dashboard:before {
+  content: "\ea82";
+}
+.sq-export-document:before {
+  content: "\ea83";
+}
+.sq-help-cursor:before {
+  content: "\ea84";
+}
+.sq-note2:before {
+  content: "\ea85";
+}
+.sq-pill-and-tablet:before {
+  content: "\ea86";
+}
+.sq-user2:before {
+  content: "\ea87";
+}
+.sq-users2:before {
+  content: "\ea88";
+}
+.sq-usersews:before {
+  content: "\ea89";
+}
+
