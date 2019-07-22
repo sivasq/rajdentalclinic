@@ -31,6 +31,9 @@
   <!-- DataTables -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/plugins/datatables/dataTables.bootstrap.css'?>">
 
+  <!-- DataTables Button -->
+  <link rel="stylesheet" href="<?php echo base_url() . 'assets/plugins/datatables/extensions/Buttons/css/buttons.dataTables.css' ?>">
+	
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/css/AdminLTE.css'?>">
   
@@ -39,6 +42,17 @@
 
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url().'assets/css/custom.css'?>">
+  
+  <style>
+        @media print {
+            html, body {
+                height: 100vh;
+                margin: 0 !important;
+                padding: 0 !important;
+                overflow: hidden;
+            }
+        }
+  </style>
 
 </head>
 

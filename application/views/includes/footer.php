@@ -24,6 +24,10 @@
 <script src="<?php echo base_url().'assets/plugins/datatables/api/sum().js'?>"></script>
 <script src="http://cdn.datatables.net/plug-ins/1.10.12/api/sum().js"></script>
 
+<!-- DataTable Buttons -->
+<script src="<?php echo base_url() . 'assets/plugins/datatables/extensions/Buttons/js/dataTables.buttons.js' ?>"></script>
+<script src="<?php echo base_url() . 'assets/plugins/datatables/extensions/Buttons/js/buttons.bootstrap.js' ?>"></script>
+<script src="<?php echo base_url() . 'assets/plugins/datatables/extensions/Buttons/js/buttons.print.js' ?>"></script>
 
 <!-- Slimscroll -->
 <script src="<?php echo base_url().'assets/plugins/slimScroll/jquery.slimscroll.min.js'?>"></script>

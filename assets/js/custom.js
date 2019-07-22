@@ -6,7 +6,7 @@ var redirect_url = 'http://rajdental/'; // here we need to change our site base 
 $(document).ready(function () {    
 
     $('#existing_patient').DataTable({
-      "paging": true,
+      "paging": false,
       "lengthChange": true,
       "searching": true,
       "ordering": true,
